@@ -9,7 +9,7 @@ const { TOKEN, SERVERUL } = process.env;
 console.log(TOKEN, " ", SERVERUL);
 
 const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
-const URI = `webhook/${TOKEN}`;
+const URI = `/webhook/${TOKEN}`;
 const WEBHOOK_URL = SERVERUL + URI;
 
 const app = express();
