@@ -1,6 +1,6 @@
 const axios = require("axios");
 const TELEGRAM_API = `https://api.telegram.org/bot${process.env.TOKEN}`;
-console.log(TELEGRAM_API)
+//console.log(TELEGRAM_API)
 const formatMessage =  (obj)=>{
     return  `<strong>${obj.title}</strong><a href="${obj.img}">.</a>
   Price: <i>${obj.price}</i> LE
