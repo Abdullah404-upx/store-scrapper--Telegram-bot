@@ -1,7 +1,6 @@
 {
   "name": "souq",
   "version": "1.0.0",
-  "description": "",
   "main": "souq.js",
   "scripts": {
     "start": "node app.js"
@@ -14,5 +13,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "puppeteer": "^10.2.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
